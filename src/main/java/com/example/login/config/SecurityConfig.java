@@ -65,6 +65,7 @@ public class SecurityConfig {
 
       return http.build();
    }
+
    /**
     * Skapar en PasswerdEncoder klass som använder BCrypt-algoritmen för att kryptera lösenord.
     */
@@ -72,7 +73,7 @@ public class SecurityConfig {
    public PasswordEncoder passwordEncoder() {
       return new BCryptPasswordEncoder();
    }
-   
+
    /**
     * Skapar en UserDetailsService som hanterar inloggningsinformation för användare.
     */

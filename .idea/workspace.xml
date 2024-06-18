@@ -5,36 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="880548e0-03c2-4a0c-b5f7-4481a23ebbd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user_not_found.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/web/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/web/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/delete_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/delete_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/model/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/model/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/model/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/model/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/MyUserDetailsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/web/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/web/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/AdminPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/delete_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/delete_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userslist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/web/AdminController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +49,19 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.AdminControllerTest.testDeleteUserNotFound.executor": "Run",
+    "JUnit.AdminControllerTest.testHomepageAuthenticated.executor": "Run",
+    "JUnit.AdminControllerTest.testHomepageNotAuthenticated.executor": "Run",
+    "JUnit.AdminControllerTest.testRegistrationValidationError.executor": "Run",
+    "JUnit.AdminControllerTest.testSuccessfulRegistration.executor": "Run",
+    "JUnit.ControllerTest.executor": "Run",
+    "JUnit.ControllerTest.testDeleteAdminUser.executor": "Run",
+    "JUnit.ControllerTest.testDeleteUserNotFound.executor": "Run",
+    "JUnit.ControllerTest.testDeleteUserSuccess.executor": "Run",
+    "JUnit.ControllerTest.testHomepageAuthenticated.executor": "Run",
+    "JUnit.ControllerTest.testHomepageNotAuthenticated.executor": "Run",
+    "JUnit.ControllerTest.testRegistrationValidationError.executor": "Run",
+    "JUnit.ControllerTest.testSuccessfulRegistration.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -100,18 +87,82 @@
       <recent name="com.example.login" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoginApplication">
+  <component name="RunManager" selected="JUnit.ControllerTest">
     <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Login" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.login.config.*" />
+          <option name="PATTERN" value="com.example.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.login" />
       <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testDeleteAdminUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteAdminUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testDeleteUserNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteUserNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testDeleteUserSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteUserSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testRegistrationValidationError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testRegistrationValidationError" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ControllerTest" />
+        <item itemvalue="JUnit.ControllerTest.testDeleteAdminUser" />
+        <item itemvalue="JUnit.ControllerTest.testDeleteUserNotFound" />
+        <item itemvalue="JUnit.ControllerTest.testDeleteUserSuccess" />
+        <item itemvalue="JUnit.ControllerTest.testRegistrationValidationError" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +206,7 @@
       <workItem from="1717530743087" duration="71000" />
       <workItem from="1717530823085" duration="177000" />
       <workItem from="1718016694520" duration="8892000" />
-      <workItem from="1718704553883" duration="6927000" />
+      <workItem from="1718704553883" duration="11153000" />
     </task>
     <servers />
   </component>
