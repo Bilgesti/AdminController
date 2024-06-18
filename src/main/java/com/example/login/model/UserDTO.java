@@ -7,7 +7,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
-
+/**
+ * UserDTO är ett dataöverföringsobjekt som används för att validera användarens inmatning vid registrering.
+ */
 @Setter
 @Getter
 public class UserDTO implements Serializable {

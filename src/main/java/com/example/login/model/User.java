@@ -6,6 +6,10 @@ import lombok.Setter;
 
 import java.io.Serializable;
 
+
+/**
+ * User-klassen representerar en användare i databasen.
+ */
 @Setter
 @Getter
 @Entity

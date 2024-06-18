@@ -5,55 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="880548e0-03c2-4a0c-b5f7-4481a23ebbd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/MyUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/login/util/MaskingUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/delete_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/delete_success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user_not_found.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/security/CustomWebAuthenticationDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/security/CustomWebAuthenticationDetailsSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/security/MyUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/security/QRCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/security/TwoFactorAuthenticator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/web/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/web/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/AdminPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/QRCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/delete_error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/model/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/web/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/web/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/delete_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/delete_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register_success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userslist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/model/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/model/Admin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/model/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/model/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/security/CustomWebAuthenticationDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/security/CustomWebAuthenticationDetailsSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/security/MyUserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/security/QRCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/security/TwoFactorAuthenticator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/web/RegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/AdminPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/AdminPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/QRCode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/MyUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/web/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/web/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/AdminPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/delete_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/delete_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/register_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register_success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userslist.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -103,7 +84,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.LoginApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Bilge",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Bilge/OneDrive/Desktop/AdminController",
     "node.js.detected.package.eslint": "true",
@@ -170,7 +151,7 @@
       <workItem from="1717530743087" duration="71000" />
       <workItem from="1717530823085" duration="177000" />
       <workItem from="1718016694520" duration="8892000" />
-      <workItem from="1718704553883" duration="2456000" />
+      <workItem from="1718704553883" duration="6927000" />
     </task>
     <servers />
   </component>

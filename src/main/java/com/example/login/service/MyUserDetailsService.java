@@ -13,7 +13,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 import java.util.Collections;
-
+/**
+ * MyUserDetailsService laddar användardetaljer från databasen vid inloggning.
+ */
 @Service
 public class MyUserDetailsService implements UserDetailsService {
 
