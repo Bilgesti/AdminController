@@ -14,10 +14,19 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
+
+/**
+ * SecurityConfig är klassen som konfigurerar säkerheten för vår applikation.
+ * Här ställer vi in hur inloggning, utloggning och tillgång till olika sidor ska fungera.
+ */
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
 
+   /**
+    * Skapar en AuthenticationManager som hanterar användarens inloggning med hjälp av deras detaljer och lösenord.
+    */
    @Bean
    public AuthenticationManager authManager(HttpSecurity http, UserDetailsService userDetailsService, PasswordEncoder passwordEncoder) throws Exception {
       return http.getSharedObject( AuthenticationManagerBuilder.class)
@@ -27,10 +36,13 @@ public class SecurityConfig {
               .build();
    }
 
+   /**
+    * Skapar en SecurityFilterChain som innehåller alla våra säkerhetsinställningar.
+    */
    @Bean
    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
       http
-              .csrf(csrf -> csrf.ignoringRequestMatchers("/register", "/delete"))
+              .csrf(csrf -> csrf.ignoringRequestMatchers("/h2-console/**"))
               .authorizeHttpRequests(authorizeRequests ->
                       authorizeRequests
                               .requestMatchers("/login", "/logout", "/register", "/h2-console/**").permitAll()
@@ -53,12 +65,17 @@ public class SecurityConfig {
 
       return http.build();
    }
-
+   /**
+    * Skapar en PasswerdEncoder klass som använder BCrypt-algoritmen för att kryptera lösenord.
+    */
    @Bean
    public PasswordEncoder passwordEncoder() {
       return new BCryptPasswordEncoder();
    }
-
+   
+   /**
+    * Skapar en UserDetailsService som hanterar inloggningsinformation för användare.
+    */
    @Bean
    public UserDetailsService userDetailsService(UserRepository userRepository) {
       return new MyUserDetailsService(userRepository);

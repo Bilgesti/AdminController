@@ -11,7 +11,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+/**
+ * UserServiceImpl implementerar UserService och hanterar användartjänster, såsom att hitta, registrera och ta bort användare.
+ */
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -47,8 +49,13 @@ public class UserServiceImpl implements UserService {
         user.setPassword(passwordEncoder.encode(userDTO.getPassword()));
         user.setRole("ROLE_USER");
         User savedUser = userRepository.save(user);
-        logger.debug("User saved with ID: " + savedUser.getId());
+        logger.debug( "User saved with ID: {}", savedUser.getId() );
         return savedUser;
+    }
+
+    @Override
+    public User findByEmail(String email) {
+        return userRepository.findByEmail(email);
     }
 
 }
