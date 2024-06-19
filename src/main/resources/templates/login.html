@@ -77,14 +77,10 @@
     <div>
         <button type="submit">Login</button>
     </div>
+
+    <div th:if="${error}" class="error-message">
+        <p th:text="${error}">Incorrect username or password. Please try again.</p>
+    </div>
 </form>
-
-<div th:if="${param.error}" class="error-message">
-    <p>Invalid username or password. Please try again.</p>
-</div>
-
-<div th:if="${param.logout}" class="success-message">
-    <p>You have been logged out successfully.</p>
-</div>
 </body>
 </html>

@@ -24,7 +24,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfig {
 
-   /**
+    /**
     * Skapar en AuthenticationManager som hanterar användarens inloggning med hjälp av deras detaljer och lösenord.
     */
    @Bean

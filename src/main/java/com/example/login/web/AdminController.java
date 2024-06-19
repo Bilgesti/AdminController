@@ -8,13 +8,12 @@ import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.HtmlUtils;
 
 import java.util.List;
@@ -70,12 +69,15 @@ public class AdminController {
     }
 
     @GetMapping("/login")
-    public String loginPage(Model model) {
+    public String loginPage(Model model, @RequestParam(value = "error", required = false) String error) {
         model.addAttribute("user", new UserDTO());
+        if (error != null) {
+            model.addAttribute("error", "Incorrect username or password");
+            logger.debug("Login error - incorrect username or password.");
+        }
         logger.debug("Showing login page.");
         return "login";
     }
-
     @GetMapping("/admin")
     public String adminPage() {
         logger.debug("Admin accessed admin page.");
@@ -144,4 +146,6 @@ public class AdminController {
         logger.debug("Error during user deletion.");
         return "delete_error";
     }
+
+
 }
